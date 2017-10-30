@@ -1,0 +1,37 @@
+/* --- font imports --- */
+@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	background-image: url("http://labs.hexapixelmedia.com/images/portfolio/hexrepeat2.jpg");
+}
+
+/* --- GLOBAL COLORS --- */
+h1 {
+  color:#009cff;
+  font-family: 'Raleway', sans-serif;
+  text-align:center;
+  text-transform:uppercase;
+  font-size:30px;
+}
+h2 {
+  color:#000000;
+  font-family: 'Raleway', sans-serif;
+  text-align:center;
+  font-variant: small-caps;
+  font-size:28px;
+}
+
+.header {
+  background-color:#000000;
+  height:20px;
+  width:100%;
+  max-width:100%;
+}
+.header p {
+  color:#009cff;
+  font-size:9px;
+  margin-top:4px;
+  text-align:right;
+  margin-right:10px;
+}
