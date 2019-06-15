@@ -1,0 +1,123 @@
+/*
+Theme Name: Resize Theme Test
+Theme URI: www.resizeme.com
+Author: MKM Web Dev team
+Author URI: http://www.mkm.ab.ca
+Version: 1.0
+License: GNU General Public License
+*/
+
+/* ------------------------------------------- */
+/* GLOBAL STYLES */
+/* ------------------------------------------- */
+
+html {
+	}
+
+body {
+	background-color:#000000;
+	}
+
+/* GLOBAL TEXT STYLES */
+
+h1 {
+	font-size: 50px;
+	}
+
+h2 {
+	font-size: 48px;
+	}
+
+h3 {
+	font-size:46px;
+	}
+
+h4 {
+	font-size:44px;
+	}
+
+h5 {
+	font-size:42px;
+	}
+
+h6 {
+	font-size:40px;
+	}
+
+p {
+	font-size:16px;
+	}
+
+/* END GLOBAL TEXT STYLES */
+
+/* GLOBAL LINK STYLES */
+
+a:link, a:visited {
+	}
+	a:hover {
+		}
+/* END GLOBAL LINK STYLES */
+
+/* GLOBAL LIST STYLES */
+ul {
+	}
+	li {
+		}
+/* END GLOBAL LIST STYLES */
+
+/* ------------------------------------------- */
+
+/* ------------------------------------------- */
+/* LAYOUT STYLES */
+/* ------------------------------------------- */
+
+#clock_wrap {
+ background-color:#000000;
+	}
+	#clock_wrap h1 {
+		font-family: 'Share Tech Mono', monospace;
+		color:#ffffff;
+		text-align:center;
+	}
+#header {
+  text-align:center;
+}
+#clock {
+	font-family: 'silkscreennormal';
+	font-size:50px;
+	}
+	#clock h3 {
+		color:#3bff00;
+		text-align:center;
+	}
+#date {
+	}
+	#date h2 {
+		color:#fff;
+		font-family: 'silkscreennormal';
+		text-align:center;
+	}
+
+/* ------------------------------------------- */
+
+/* ------------------------------------------- */
+/* MODIFIERS */
+/* ------------------------------------------- */
+.left {
+	float:left;
+	}
+
+.right {
+	float:right;
+	}
+
+.center {
+	}
+
+.nineSixty {
+	}
+.clear {
+	float:none;
+	clear:both;
+	}
+/* ------------------------------------------- */

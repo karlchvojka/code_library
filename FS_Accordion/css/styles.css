@@ -1,0 +1,127 @@
+/* ------------------------------------------- */
+/* GLOBAL STYLES */
+/* ------------------------------------------- */
+
+html {
+	}
+
+body {
+	}
+
+/* GLOBAL TEXT STYLES */
+
+#main_col h1 {
+	font-size:24px;
+	}
+
+h2 {
+	}
+
+h3 {
+	font-size:20px;
+	margin-bottom:10px;
+	}
+
+h4 {
+	}
+
+h5 {
+	}
+
+h6 {
+	}
+
+
+/* END GLOBAL TEXT STYLES */
+
+/* GLOBAL LINK STYLES */
+
+a:link, a:visited {
+	}
+	a:hover {
+		}
+/* END GLOBAL LINK STYLES */
+
+/* GLOBAL LIST STYLES */
+ul {
+	}
+	li {
+		}
+/* END GLOBAL LIST STYLES */
+
+/* ------------------------------------------- */
+
+/* ------------------------------------------- */
+/* LAYOUT STYLES */
+/* ------------------------------------------- */
+
+/*Nav styles*/
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.panel:not(:last-child) {
+	margin:0px;
+	padding:0px;
+}
+/* ------------------------------------------- */
+
+/* ------------------------------------------- */
+/* MODIFIERS */
+/* ------------------------------------------- */
+.align-left {
+  text-align:left;
+  }
+.align-right {
+  text-align:right;
+}
+.left {
+	float:left;
+	}
+
+.right {
+	float:right;
+	}
+
+.center {
+	}
+
+.nineSixty {
+	}
+.clear {
+	float:none;
+	clear:both;
+	}
+/* ------------------------------------------- */
