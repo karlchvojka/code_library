@@ -1,7 +1,7 @@
 # Basic HTML and HTML5
 
 ## Introduction to HTML5 Elements
-..* HTML5 introduces more descriptive HTML tags. main, header, footer, nav, video, article and section.
+  * HTML5 introduces more descriptive HTML tags. main, header, footer, nav, video, article and section.
 
 ### main
 The main tag helps search enegines and other developers find the main content of your page.
